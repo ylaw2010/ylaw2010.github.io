@@ -37,18 +37,19 @@ body, html {
   height: 500%;
 }
 
-#Home {background-color: grey;}
-#News {background-color: grey;}
-#Contact {background-color: grey;}
-#About {background-color: grey;}
+#Home {background-color: #302c2c;}
+#News {background-color: #302c2c;}
+#Contact {background-color: #302c2c;}
+#About {background-color: #302c2c;}
 </style>
 </head>
 <body>
 
 <button class="tablink" onclick="openPage('Home', this, 'grey')">Home</button>
-<button class="tablink" onclick="openPage('News', this, 'grey')" id="defaultOpen">News</button>
-<button class="tablink" onclick="openPage('Contact', this, 'grey')">Contact</button>
-<button class="tablink" onclick="openPage('About', this, 'grey')">About</button>
+<button class="tablink" onclick="openPage('News', this, 'grey')" id="defaultOpen">Global Economy</button>
+<button class="tablink" onclick="openPage('Contact', this, 'grey')">Europe</button>
+<button class="tablink" onclick="openPage('About', this, 'grey')">Southeast Asia</button>
+<button class="tablink" onclick="openPage('Home', this, 'grey')">U.S.</button
 
 <div id="Home" class="tabcontent">
   <h3>Home</h3>
@@ -61,8 +62,8 @@ body, html {
   
   </div>
 
-<div id="News" class="tabcontent">
-  <h3>News</h3>
+<div id="Global Economy" class="tabcontent">
+  <h3>Global Economy</h3>
   <p>Some news this fine day! <br/>
     <img src="https://github.com/ylaw2010/Royeconomic/blob/main/gdp_shares.png?raw=true" alt="Loading" style="width:100%;height:100%;">
     </p>
@@ -80,14 +81,19 @@ body, html {
     </p>
 </div>
 
-<div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
+<div id="Europe" class="tabcontent">
+  <h3>Europe</h3>
   <p>Get in touch, or swing by for a cup of coffee.</p>
 </div>
 
-<div id="About" class="tabcontent">
-  <h3>About</h3>
+<div id="Southeast Asia" class="tabcontent">
+  <h3>Southeast Asia</h3>
   <p>Who we are and what we do.</p>
+</div>
+  
+<div id="U.S." class="tabcontent">
+  <h3>U.S.</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
 </div>
 
 <script>
